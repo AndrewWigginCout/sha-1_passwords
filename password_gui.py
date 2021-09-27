@@ -8,7 +8,7 @@ def main():
     import tkinter.scrolledtext as scrolledtext
     root=tk.Tk()
     root.geometry("600x400")
-    root.title("Alex's password maker")
+    root.title("Password generator")
     font=('consolas',16)
     
     I=tk.scrolledtext.ScrolledText(root,height=4,width=50)
